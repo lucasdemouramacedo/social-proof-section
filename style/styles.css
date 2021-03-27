@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+:root {
+  font-size: 15px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
