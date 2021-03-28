@@ -1,3 +1,17 @@
+//Colors
+
+// Primary
+
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SoftPink: hsl(333, 80%, 67%);
+
+// Neutral
+
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+
 :root{
     font-size: 15px;
 }
@@ -10,4 +24,66 @@
 
 body{
     font-family: 'Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $White;
+}
+
+.bg-pattern-top-mobile{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.bg-pattern-bottom-mobile{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.title{
+    margin-top: 80px;
+    font-weight: 700;
+    color: $VeryDarkMagenta;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    line-height: 1;
+}
+
+.description{
+    color: $DarkGrayishMagenta;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.rated-group{
+    margin-top: 30px;
+}
+
+.rated{
+    background: $LightGrayishMagenta;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 56px;
+    padding-left: 56px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
 }
