@@ -21,19 +21,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: white;
+  position: relative;
 }
 
 .bg-pattern-top-mobile {
-  position: fixed;
+  position: absolute;
   top: 0px;
-  left: 0px;
   z-index: -1;
 }
 
 .bg-pattern-bottom-mobile {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
-  right: 0px;
   z-index: -1;
 }
 
@@ -49,9 +48,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 90%;
 }
 
@@ -72,22 +68,74 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.3px;
-  line-height: 1.5;
+  line-height: 1.7;
   margin-top: 25px;
 }
 
 .rated-group {
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .rated {
   background: #f7f2f7;
   margin-bottom: 10px;
   text-align: center;
-  padding-right: 56px;
-  padding-left: 56px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+}
+
+.rated span {
+  font-weight: 700;
+  color: #502050;
+  font-size: 13px;
+}
+
+.stars {
+  margin-bottom: 5px;
+}
+
+.star {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.buyer {
+  background: #502050;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.name-veri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.avaliation {
+  color: white;
+  font-size: 0.89em;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=styles.css.map */

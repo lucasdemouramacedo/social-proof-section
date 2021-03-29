@@ -28,19 +28,18 @@ body{
     align-items: center;
     justify-content: center;
     background-color: $White;
+    position:relative;
 }
 
 .bg-pattern-top-mobile{
-    position: fixed;
+    position: absolute;
     top: 0px;
-    left: 0px;
     z-index: -1;
 }
 
 .bg-pattern-bottom-mobile{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
-    right: 0px;
     z-index: -1;
 }
 
@@ -49,7 +48,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 90%;
 }
 .title{
@@ -69,21 +67,63 @@ body{
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.3px;
-    line-height: 1.5;
+    line-height: 1.7;
     margin-top: 25px;
 }
 
 .rated-group{
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .rated{
     background: $LightGrayishMagenta;
     margin-bottom: 10px;
     text-align: center;
-    padding-right: 56px;
-    padding-left: 56px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+.rated span{
+    font-weight: 700;
+    color: $VeryDarkMagenta;
+    font-size: 13px;
+}
+
+.stars{
+    margin-bottom: 5px;
+}
+
+.star{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.buyer{
+    background: $VeryDarkMagenta;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.name-veri{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.avaliation{
+    color: $White;
+    font-size: 0.89em;
+    line-height: 1.5;
 }
