@@ -48,16 +48,16 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90%;
+  width: 85%;
 }
 
 .title {
   margin-top: 80px;
   font-weight: 700;
   color: #502050;
-  font-size: 30px;
-  padding-right: 10px;
-  padding-left: 10px;
+  font-size: 2em;
+  padding-right: 30px;
+  padding-left: 30px;
   text-align: center;
   line-height: 1;
 }
@@ -66,7 +66,7 @@ body {
   color: #937b92;
   text-align: center;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.9em;
   letter-spacing: 0.3px;
   line-height: 1.7;
   margin-top: 25px;
@@ -93,12 +93,16 @@ body {
 }
 
 .stars {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .star {
   margin-left: 2px;
   margin-right: 2px;
+}
+
+.buyers {
+  margin-bottom: 80px;
 }
 
 .buyer {
@@ -118,6 +122,11 @@ body {
   margin-bottom: 25px;
 }
 
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+}
+
 .name-veri {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,16 +135,29 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 20px;
 }
 
-.profile img {
-  border-radius: 50%;
-  width: 40px;
+.name {
+  color: white;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.verification {
+  color: #ee68a4;
+  font-size: 0.8em;
 }
 
 .avaliation {
   color: white;
-  font-size: 0.89em;
-  line-height: 1.5;
+  font-size: 0.82em;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+.verification {
+  color: #ee68a4;
 }
 /*# sourceMappingURL=styles.css.map */
