@@ -34,6 +34,7 @@ body{
 .bg-pattern-top-mobile{
     position: absolute;
     top: 0px;
+    left: 0px;
     z-index: -1;
 }
 
@@ -41,6 +42,7 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: -1;
+    right: 0px;
 }
 
 .main{
@@ -78,7 +80,7 @@ body{
 
 .rated{
     background: $LightGrayishMagenta;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
